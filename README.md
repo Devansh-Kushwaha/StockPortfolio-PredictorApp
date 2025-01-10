@@ -72,6 +72,16 @@ A web application to help users manage and track their stock portfolios. Built w
 - Notifications: Real-time price alerts and updates.
 - Multi-currency Support: Track portfolios in various currencies.
 
+## Limitations
+
+- **Live Prices**: The live stock prices are fetched only when the page is refreshed.  
+- **Fallback for API Failures**: If any of the external APIs fail to return a response, the stock price is defaulted to `$100`. This serves as a debugging aid and helps in identifying API-related issues.
+
+## Deployment
+
+- **Frontend**: [Vercel](https://stock-portfolio-deployed.vercel.app/)
+
+
 ## Contributing
 **Contributions are welcome! Please follow these steps:**
 
