@@ -99,7 +99,7 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 
 ## Contacts
 
-**Devansh Kushwaha**
+**Devansh Kushwaha**  
 Email: [devansh.67.kushwaha@gmail.com](devansh.67.kushwaha@gmail.com)  
 GitHub: [Devansh-Kushwaha](https://github.com/Devansh-Kushwaha)  
 LinkedIn: [Devansh Kushwaha](https://www.linkedin.com/in/devansh-kushwaha-333466267/)  
