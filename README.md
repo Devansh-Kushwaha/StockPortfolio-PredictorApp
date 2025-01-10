@@ -55,4 +55,52 @@ A web application to help users manage and track their stock portfolios. Built w
    ```bash
    npm run dev (for frontend)
    python manage.py runserver (for backend)
-    
+
+## API Endpoints
+
+| Endpoint                  | Method | Description                     |
+|---------------------------|--------|---------------------------------|
+| `/api/stocks/`            | GET    | View portfolio                  |
+| `/api/stocks/create/`     | POST   | Add a new stock                 |
+| `/api/stocks/delete/<int:pk>`| DELETE| Remove a stock from the portfolio |
+| `/api/stocks/update/<int:pk>`| PUT | Edit a stock in the portfolio   |
+| `/api/stocks/ predict`    | POST   | Get predictions of a stock's costd |
+
+## Future Enhancements
+
+- Advanced Analytics: Risk analysis and portfolio diversification insights.
+- Notifications: Real-time price alerts and updates.
+- Multi-currency Support: Track portfolios in various currencies.
+
+## Contributing
+**Contributions are welcome! Please follow these steps:**
+
+1. Fork the repository.
+2. Create a new branch.
+   ```bash
+   git checkout -b feature-name
+3. Commit your changes.
+   ```bash
+   git commit -m "Add feature-name"
+4. Push to your forked repository.
+   ```bash
+   git push origin feature-name
+5. Create a pull request.
+
+## Licence
+This project is licensed under the [MIT License](https://opensource.org/license/MIT). See the LICENSE file for details.
+
+## Acknowledgements
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [MySQL](https://www.mysql.com/)
+- [React JS](https://react.dev/)
+- [Alpha Vantage](https://www.alphavantage.co/documentation/)
+- [Yahoo Finance](https://finance.yahoo.com/)
+
+## Contacts
+
+**Devansh Kushwaha**
+Email: [devansh.67.kushwaha@gmail.com](devansh.67.kushwaha@gmail.com)
+GitHub: [Devansh-Kushwaha](https://github.com/Devansh-Kushwaha)
+LinkedIn: [Devansh Kushwaha](https://www.linkedin.com/in/devansh-kushwaha-333466267/)
+
